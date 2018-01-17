@@ -98,7 +98,7 @@ for arg; do
     fi
 done
 
-wine start /unix "$progHome/$progBin" "${args[@]}"
+wine "$progHome/$progBin" "${args[@]}"
 EOF1
 echo "[Desktop Entry]" >> $icof
 echo "Name=$pkgname" >> $icof
